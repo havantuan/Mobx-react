@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#" itemscope itemtype="http://schema.org/WebSite">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="Content-Language" content="vi">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<title>Đại hội đạt biểu lần thứ XI</title>
+<link rel="canonical" href="suy-nghi-dai-bieu" itemprop="url"/>
+<meta http-equiv="audience" content="General"/>
+<meta name="resource-type" content="Document"/>
+<meta name="distribution" content="Global"/>
+<meta name="revisit-after" content="1 days"/>
+<meta http-equiv="REFRESH" content="1800"/>
+
+<base href="union.dev" ><!--[if IE]></base><![endif]-->
+<meta name="robots" content="index,follow,all"/>
+
+<meta name="DC.Language" content="vi"/>
+<meta property="og:locale" content="vi_VN"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="suy-nghi-dai-bieu"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta content="https://dore.vn/uploads/home/logo.png" property="og:image">
+
+<link rel="stylesheet" type="text/css" href="css/posting.css">
+
+<script type="text/javascript">
+            const BASE_URL = "union.dev",
+            API_URL = "api/",
+            TIME_NOW = 1523848802,
+            CSRF_TOKEN = "",
+            NO_IMAGE_URL = "uploads/default/no-photo.png",
+            FIREBASE_CONF = {
+                        apiKey: "AIzaSyA5FokgjMOXv6SLB9pVQQo50ym8QU64vRM",
+                        authDomain: "campp-6aceb.firebaseapp.com",
+                        databaseURL: "https://campp-6aceb.firebaseio.com",
+                        projectId: "campp-6aceb",
+                        storageBucket: "campp-6aceb.appspot.com",
+                        messagingSenderId: "597359599315"
+            } ;
+        </script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<body>
+    <div class="container">    <div class="wrapper">
+        <div class="wrapper-left">
+            <div class="title-wrapper-left">
+                <p>triển lãm đại hội</p>
+            </div>
+            <div class="content-wrapper-left" id="photo-union">
+
+            </div>
+        </div>
+        <div class="wrapper-right">
+            <div class="title-wrapper-right">
+                <p>suy nghĩ gửi đại hội</p>
+            </div>
+            <div class="content-wrapper-right" id="thinking-union">
+            </div>
+        </div>
+    </div>
+
+    <script type="text/html" id="photo-template">
+        <% _.each(photos, function(photo, stt) { %>
+            <div class="box-image">
+                <img src="<%- photo %>">
+            </div>
+        <% }); %>
+    </script>
+
+    <script type="text/html" id="thinking-template">
+        <% i = 0 %>
+        <% _.each(thinkings, function(thinking, stt) {
+        if( i%2 == 1){ %>
+            <div class="box-heart">
+                <div class="box-content-heart-left">
+                    <p class="name-heart-left"><%- thinking.CreatedBy && thinking.CreatedBy.Name %></p>
+                    <p class="content-heart-left"><%- thinking && replaceHtmlTag(thinking.Content) %></p>
+                    <p class="content-heart-left"><%- thinking && replaceHtmlTag(thinking.Content) %></p>
+                </div>
+                <div class="box-avatar-left">
+                    <img src="<%- thinking.CreatedBy.Avatar && thinking.CreatedBy.Avatar.Url %>">
+                </div>
+            </div>
+        <% }else { %>
+            <div class="box-heart">
+                <div class="box-content-heart-right">
+                    <p class="name-heart-right"><%- thinking.CreatedBy && thinking.CreatedBy.Name %></p>
+                    <p class="content-heart-right"><%- thinking && replaceHtmlTag(thinking.Content) %></p>
+                </div>
+                <div class="box-avatar-right">
+                    <img src="<%- thinking.CreatedBy.Avatar && thinking.CreatedBy.Avatar.Url %>">
+                </div>
+            </div>
+        <%  } i++;}); %>
+    </script>
+</div>
+<script type="text/javascript" src="libraries/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="libraries/firebase/firebase.js"></script>
+<script type="text/javascript" src="libraries/firebase/firebase-app.js"></script>
+<script type="text/javascript" src="libraries/firebase/firebase-auth.js"></script>
+<script type="text/javascript" src="libraries/firebase/firebase-database.js"></script>
+<script type="text/javascript" src="libraries/firebase/firebase-firestore.js"></script>
+<script type="text/javascript" src="libraries/underscore/underscore-min.js"></script>
+<script type="text/javascript" src="js/custom_posting.js"></script>
+<script type="text/javascript" src="js/posting.js"></script>
+
+
+    <script type="text/javascript">
+
+        (function ($) {
+            $(function () {
+
+
+            });
+        }(window.jQuery))
+
+    </script>
+</body>
+</html>

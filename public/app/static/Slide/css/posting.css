@@ -1,0 +1,258 @@
+@font-face {
+    font-family: Commercb;
+    src: url('../font/unicode.commercb.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Roboto-Condensed;
+    src: url('../font/Roboto-Condensed.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: SFUSouvenirBoldtalic;
+    src: url('../font/SFUSouvenirBoldItalic.TTF') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Commercb;
+}
+
+p {
+    text-transform: uppercase;
+}
+
+.container {
+    width: 100%;
+    background: url('../images/back-ground.png') no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.wrapper-left {
+    width: 53.5%;
+    float: left;
+}
+
+.wrapper-right {
+    float: right;
+    width: 42%;
+    overflow: hidden;
+}
+
+.title-wrapper-left {
+    width: 60%;
+    margin: 0 auto;
+    background: url('../images/back-ground-title.png') no-repeat;
+    background-size: 100%;
+}
+
+.title-wrapper-right {
+    width: 77%;
+    margin: 0 auto;
+    background: url('../images/back-ground-title.png') no-repeat;
+    background-size: 100%;
+}
+
+.title-wrapper-left p {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: #e4f4f9;
+    text-shadow:0px 2px #000;
+}
+
+.title-wrapper-right p {
+    width: 60%;
+    text-align: center;
+    color: #e4f4f9;
+    text-shadow:0px 2px #000;
+}
+
+.content-wrapper-left {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-y: visible;
+}
+
+.content-wrapper-left .box-image {
+    width: 23%;
+    margin: 0 2% 2% 0;
+    float: left;
+    overflow: hidden;
+    /*border-radius: 13% 11% 13% 11%;*/
+}
+
+.content-wrapper-left img {
+    width: 100%;
+    height: auto;
+}
+
+.box-heart {
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+
+.box-avatar-left {
+    width: 16.6%;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    border: 2px solid transparent;
+    background-image: linear-gradient(to right, #12552c, #ec7f12, #7d9217, #78312d,#0d532d), linear-gradient(to bottom, #0d532d, #3f432d), linear-gradient(to left, #12552c, #ec7f12, #7d9217, #78312d,#0d532d), linear-gradient(to top, #0d532d, #3f432d);
+    background-origin: border-box;
+    background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
+    background-position: top left, top right, bottom right, bottom left;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+    z-index: 9;
+}
+
+.box-avatar-right {
+    width: 16.6%;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    border: 2px solid transparent;
+    background-image: linear-gradient(to right, #12552c, #ec7f12, #7d9217, #78312d,#0d532d), linear-gradient(to bottom, #0d532d, #3f432d), linear-gradient(to left, #12552c, #ec7f12, #7d9217, #78312d,#0d532d), linear-gradient(to top, #0d532d, #3f432d);
+    background-origin: border-box;
+    background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
+    background-position: top left, top right, bottom right, bottom left;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+    z-index: 9;
+}
+
+.box-avatar-left img {
+    width: 100%;
+    height: 100%;
+    object-position: 50% 50%;
+    object-fit: cover;
+}
+
+.box-avatar-right img {
+    width: 100%;
+    height: 100%;
+    object-position: 50% 50%;
+    object-fit: cover;
+}
+
+.box-content-heart-left {
+    width: 82.54%;
+    background-color: #f4f4f4;
+    border: 2px solid transparent;
+    background-image: linear-gradient(to right, #12552c, #ec7f12, #7d9217, #78312d,#0d532d), linear-gradient(to bottom, #0d532d, #3f432d), linear-gradient(to left, #12552c, #234d2d, #7d9217, #78312d,#0d532d), linear-gradient(to top, #0d532d, #3f432d);
+    background-origin: border-box;
+    background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
+    background-position: top left, top right, bottom right, bottom left;
+    background-repeat: no-repeat;
+    margin: 0 0 0 8.73%;
+    position: relative;
+}
+
+.box-content-heart-right {
+    width: 82.54%;
+    background-color: #f4f4f4;
+    border: 2px solid transparent;
+    background-image: linear-gradient(to right, #12552c, #ec7f12, #7d9217, #78312d,#0d532d), linear-gradient(to bottom, #0d532d, #3f432d), linear-gradient(to left, #12552c, #ec7f12, #7d9217, #78312d,#0d532d), linear-gradient(to top, #0d532d, #3f432d);
+    background-origin: border-box;
+    background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
+    background-position: top left, top right, bottom right, bottom left;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+}
+
+.box-content-heart-left :after {
+    content: "";
+    display: block;
+    background-color: #f4f4f4;
+    border: solid 2px #234d2d;
+    border-left: 0;
+    width: 8%;
+    height: 99.8%;
+    position: absolute;
+    z-index: 1;
+    top: -2px;
+    right: -3%;
+    transform: skew(-9deg);
+    -o-transform: skew(-9deg);
+    -moz-transform: skew(-9deg);
+    -webkit-transform: skew(-9deg);
+}
+
+.box-content-heart-right :after {
+    content: "";
+    display: block;
+    background-color: #f4f4f4;
+    border: solid 2px #234d2d;
+    border-right: 0;
+    width: 8%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: -2px;
+    left: -6%;
+    transform: skew(9deg);
+    -o-transform: skew(9deg);
+    -moz-transform: skew(9deg);
+    -webkit-transform: skew(9deg);
+}
+
+
+
+.content-heart-left {
+    font-family: SFUSouvenirBoldtalic;
+    text-transform: none;
+    color: #0ca3b9;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 0 5px 15%;
+}
+
+.name-heart-left {
+    font-family: Roboto-Condensed;
+    color: #1a502d;
+    width: 80%;
+    margin: 5px 0 0 15%;
+    text-transform: none;
+}
+
+.content-heart-right {
+    font-family: SFUSouvenirBoldtalic;
+    text-transform: none;
+    color: #0ca3b9;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 15% 5px 5%;
+}
+
+.name-heart-right {
+    font-family: Roboto-Condensed;
+    color: #1a502d;
+    width: 80%;
+    margin: 5px 15% 0 5%;
+    text-transform: none;
+}

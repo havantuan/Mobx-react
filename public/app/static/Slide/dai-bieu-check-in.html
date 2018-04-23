@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="vi" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#" itemscope itemtype="http://schema.org/WebSite">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="Content-Language" content="vi">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<title>Đại hội đạt biểu lần thứ XI</title>
+<link rel="canonical" href="dai-bieu-check-in" itemprop="url"/>
+<meta http-equiv="audience" content="General"/>
+<meta name="resource-type" content="Document"/>
+<meta name="distribution" content="Global"/>
+<meta name="revisit-after" content="1 days"/>
+<meta http-equiv="REFRESH" content="1800"/>
+
+<base href="union.dev" ><!--[if IE]></base><![endif]-->
+<meta name="robots" content="index,follow,all"/>
+
+<meta name="DC.Language" content="vi"/>
+<meta property="og:locale" content="vi_VN"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="dai-bieu-check-in"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta content="https://dore.vn/uploads/home/logo.png" property="og:image">
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<script type="text/javascript">
+            const BASE_URL = "union.dev",
+            API_URL = "api/",
+            TIME_NOW = 1523700156,
+            CSRF_TOKEN = "",
+            NO_IMAGE_URL = "uploads/default/no-photo.png",
+            FIREBASE_CONF = {
+                        apiKey: "AIzaSyA5FokgjMOXv6SLB9pVQQo50ym8QU64vRM",
+                        authDomain: "campp-6aceb.firebaseapp.com",
+                        databaseURL: "https://campp-6aceb.firebaseio.com",
+                        projectId: "campp-6aceb",
+                        storageBucket: "campp-6aceb.appspot.com",
+                        messagingSenderId: "597359599315"
+            } ;
+        </script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<body>
+    <div class="container">    <style type="text/css">
+        body {
+            overflow: hidden;
+        }
+        .fixed-table-body{
+            position: relative;
+        }
+        #delegate{
+            position: absolute;
+            top:0;
+            left:0;
+            z-index: 1;
+        }
+        .avatar-sm{
+            z-index: 2;
+            position: absolute;
+        }
+        .avatar{
+            z-index: 2;
+            position: absolute;
+        }
+        .card-box-content{
+            position: fixed;
+            top: 7%;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            overflow: auto;
+        }
+    </style>
+
+    <div class="slide-left">
+        <div class="title-slide">
+        </div>
+        <div class="tv-slidebar">
+            <video autoplay="" poster="" id="videobg" loop="">
+                <source src="" type="video/mp4">
+            </video>
+            <div class="background-tv"></div>
+        </div>
+        <div class="opacity-footer"></div>
+    </div>
+    <div class="box-center">
+        <div class="box-content-mid">
+            <div class="box-mid-head">
+                <p class="title-first">chào mừng đại biểu</p>
+                <p class="delegate-name"></p>
+                <p class="title-secont">tham dự đại hội XII công đoàn Việt Nam</p>
+            </div>
+            <div class="box-content-bottom">
+                <div class="box-all-avatar">
+                    <div class="box-four-star">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="new-right-box">
+            <div data-avatar="0" class="box-avatar first">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="1" class="box-avatar continue">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="2" class="box-avatar continue">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="3" class="box-avatar continue">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="4" class="box-avatar continue">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="5" class="box-avatar continue">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="6" class="box-avatar continue">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="7" class="box-avatar continue">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="8" class="box-avatar continue">
+                <div class="border-avatar-dhd"></div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/html" id="avatar-template" class="animated fadeInRight">
+        <% if(avatars.length <=9) { %>
+            <div data-avatar="0" class="box-avatar first" style="background: url('<%- avatars[0] && avatars[0].avatar_url%>'); background-size: 100%; display:none">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="1" class="box-avatar first" style="background: url('<%- avatars[1] && avatars[1].avatar_url%>'); background-size: 100%;">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="6" class="box-avatar continue" style="background: url('<%- avatars[6] && avatars[6].avatar_url%>'); background-size: 100%">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="7" class="box-avatar continue" style="background: url('<%- avatars[5] && avatars[5].avatar_url%>'); background-size: 100%">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="8" class="box-avatar continue" style="background: url('<%- avatars[7] && avatars[7].avatar_url%>'); background-size: 100%">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="9" class="box-avatar continue" style="background: url('<%- avatars[4] && avatars[4].avatar_url%>'); background-size: 100%">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="10" class="box-avatar continue" style="background: url('<%- avatars[8] && avatars[8].avatar_url%>'); background-size: 100%">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="11" class="box-avatar continue" style="background: url('<%- avatars[3] && avatars[3].avatar_url%>'); background-size: 100%">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="12" class="box-avatar continue" style="background: url('<%- avatars[9] && avatars[9].avatar_url%>'); background-size: 100%">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="13" class="box-avatar continue" style="background: url('<%- avatars[2] && avatars[2].avatar_url%>'); background-size: 100%">
+                <div class="border-avatar-dhd"></div>
+            </div>
+        <% } else { %>
+            <div data-avatar="0" class="box-avatar first" style="background: url('<%- avatars[0] && avatars[0].avatar_url%>'); background-size: 100%; display:none">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="1" class="box-avatar first" style="background: url('<%- avatars[1] && avatars[1].avatar_url%>'); background-size: 100%; display:none">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="2" class="box-avatar first" style="background: url('<%- avatars[2] && avatars[2].avatar_url%>'); background-size: 100%; display:none">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="3" class="box-avatar first" style="background: url('<%- avatars[3] && avatars[3].avatar_url%>'); background-size: 100%; display:none">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="4" class="box-avatar first" style="background: url('<%- avatars[4] && avatars[4].avatar_url%>'); background-size: 100%">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="6" class="box-avatar continue" style="background: url('<%- avatars[9] && avatars[9].avatar_url%>'); background-size: 100%">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="7" class="box-avatar continue" style="background: url('<%- avatars[8] && avatars[8].avatar_url%>'); background-size: 100%">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="8" class="box-avatar continue" style="background: url('<%- avatars[10] && avatars[10].avatar_url%>'); background-size: 100%">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="9" class="box-avatar continue" style="background: url('<%- avatars[7] && avatars[7].avatar_url%>'); background-size: 100%">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="10" class="box-avatar continue" style="background: url('<%- avatars[11] && avatars[11].avatar_url%>'); background-size: 100%">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="11" class="box-avatar continue" style="background: url('<%- avatars[6] && avatars[6].avatar_url%>'); background-size: 100%">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="12" class="box-avatar continue" style="background: url('<%- avatars[12] && avatars[12].avatar_url%>'); background-size: 100%">
+                <div class="border-avatar-dhd"></div>
+            </div>
+            <div data-avatar="13" class="box-avatar continue" style="background: url('<%- avatars[5] && avatars[5].avatar_url%>'); background-size: 100%">
+                <div class="border-avatar-dhd"></div>
+            </div>
+        <% } %>
+
+
+    </script>
+</div>
+<script type="text/javascript" src="libraries/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="libraries/firebase/firebase.js"></script>
+<script type="text/javascript" src="libraries/firebase/firebase-app.js"></script>
+<script type="text/javascript" src="libraries/firebase/firebase-auth.js"></script>
+<script type="text/javascript" src="libraries/firebase/firebase-database.js"></script>
+<script type="text/javascript" src="libraries/firebase/firebase-firestore.js"></script>
+<script type="text/javascript" src="libraries/underscore/underscore-min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/delegates.js"></script>
+
+
+    <script type="text/javascript">
+
+        (function ($) {
+            $(function () {
+
+
+            });
+        }(window.jQuery))
+
+    </script>
+</body>
+</html>

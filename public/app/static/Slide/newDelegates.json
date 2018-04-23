@@ -1,0 +1,162 @@
+{
+  "response_code": 200,
+  "message": "Th\u00e0nh c\u00f4ng",
+  "data": [
+    {
+      "id": "5a307d2ca4c90a0001430b2f",
+      "user_id": "117787315660694351",
+      "user_name": "td37001",
+      "name": "Nguy\u1ec5n V\u0103n Nhu\u1eadn",
+      "avatar_url": "https:\/\/union.campp.me\/2017-11-21\/b24b3ae7-38cf-4622-a9c3-59c7075bc145.jpg",
+      "union_name": "T\u1ec9nh \u0111o\u00e0n Kh\u00e1nh H\u00f2a",
+      "created_at": 1513127212,
+      "updated_at": 1513127212,
+      "session_id": 6,
+      "current_seat": "U42"
+    },
+    {
+      "id": "5a307d200b497a0001c0e5f9",
+      "user_id": "117787318915474255",
+      "user_name": "td37012",
+      "name": "B\u00f9i V\u0103n Ho\u00e0ng",
+      "avatar_url": "https:\/\/union.campp.me\/2017-11-21\/6c2a8392-cec8-4e64-b4ab-f90d1a247973.jpg",
+      "union_name": "T\u1ec9nh \u0111o\u00e0n Kh\u00e1nh H\u00f2a",
+      "created_at": 1513127200,
+      "updated_at": 1513127200,
+      "session_id": 6,
+      "current_seat": "U53"
+    },
+    {
+      "id": "5a307d01a4c90a0001430b2e",
+      "user_id": "119068237311771023",
+      "user_name": "td69044",
+      "name": "Gi\u00e0ng Seo Ch\u00e2u",
+      "avatar_url": "https:\/\/union.campp.me\/2017-11-29\/165c46e5-e322-4440-bd75-78cfa6d40fa5.jpg",
+      "union_name": "T\u1ec9nh \u0111o\u00e0n L\u00e0o Cai",
+      "created_at": 1513127169,
+      "updated_at": 1513127169,
+      "session_id": 6,
+      "current_seat": "G23"
+    },
+    {
+      "id": "5a307ce1a4c90a0001430b2d",
+      "user_id": "117786790282175311",
+      "user_name": "td18017",
+      "name": "Nguy\u1ec5n Ti\u1ebfn H\u01b0ng",
+      "avatar_url": "https:\/\/union.campp.me\/2017-11-21\/52ff20ac-32c8-48c5-97ab-973c4c32f766.jpg",
+      "union_name": "Th\u00e0nh \u0111o\u00e0n TP.H\u00e0 N\u1ed9i",
+      "created_at": 1513127137,
+      "updated_at": 1513127137,
+      "session_id": 6,
+      "current_seat": "L16"
+    },
+    {
+      "id": "5a307cd9a4c90a0001430b2c",
+      "user_id": "117786679569326927",
+      "user_name": "td05010",
+      "name": "V\u01b0\u01a1ng Ma\u0323nh Phu\u0301",
+      "avatar_url": "https:\/\/union.campp.me\/2017-11-21\/03d7f0c4-2560-4e20-b9d8-28af6277ca06.jpg",
+      "union_name": "T\u1ec9nh \u0111o\u00e0n L\u00e0o Cai",
+      "created_at": 1513127129,
+      "updated_at": 1513127129,
+      "session_id": 6,
+      "current_seat": "G20"
+    },
+    {
+      "id": "5a307cc0a4c90a0001430b2b",
+      "user_id": "117786677723833167",
+      "user_name": "td05007",
+      "name": "Ch\u00e2u V\u0103n Chung",
+      "avatar_url": "https:\/\/union.campp.me\/2017-11-21\/7e187f27-f4ac-461d-b5b8-66aa261e09b5.jpg",
+      "union_name": "T\u1ec9nh \u0111o\u00e0n L\u00e0o Cai",
+      "created_at": 1513127104,
+      "updated_at": 1513127104,
+      "session_id": 6,
+      "current_seat": "G17"
+    },
+    {
+      "id": "5a307c4a0b497a0001c0e5f8",
+      "user_id": "117787318059836239",
+      "user_name": "td37009",
+      "name": "Nguy\u1ec5n Th\u1ecb Ng\u1ecdc Giao",
+      "avatar_url": "https:\/\/union.campp.me\/2017-11-21\/2efe9392-0b6c-446e-991d-e6a73594149a.jpg",
+      "union_name": "T\u1ec9nh \u0111o\u00e0n Kh\u00e1nh H\u00f2a",
+      "created_at": 1513126986,
+      "updated_at": 1513126986,
+      "session_id": 6,
+      "current_seat": "U50"
+    },
+    {
+      "id": "5a307b490b497a0001c0e5f1",
+      "user_id": "117787422145684303",
+      "user_name": "td65001",
+      "name": "V\u0169 \u0110\u1ee9c T\u00fa",
+      "avatar_url": "https:\/\/union.campp.me\/2017-11-21\/79248126-c227-45ff-8abe-6cd8353f9bf3.png",
+      "union_name": "\u0110o\u00e0n kh\u1ed1i doanh nghi\u1ec7p Trung \u01b0\u01a1ng",
+      "created_at": 1513126729,
+      "updated_at": 1513126729,
+      "session_id": 6,
+      "current_seat": "Q38"
+    },
+    {
+      "id": "5a307af20b497a0001c0e5f0",
+      "user_id": "119068236707791247",
+      "user_name": "td69043",
+      "name": "Tr\u1ea7n Xu\u00e2n B\u00e1ch",
+      "avatar_url": "https:\/\/union.campp.me\/2017-11-29\/39031f3a-40de-471a-8b26-6018661fca34.jpg",
+      "union_name": "Th\u00e0nh \u0111o\u00e0n TP.H\u00e0 N\u1ed9i",
+      "created_at": 1513126642,
+      "updated_at": 1513126642,
+      "session_id": 6,
+      "current_seat": "N20"
+    },
+    {
+      "id": "5a307a72a4c90a0001430b26",
+      "user_id": "119068218621952399",
+      "user_name": "td69014",
+      "name": "Nguy\u1ec5n Kim Quy",
+      "avatar_url": "https:\/\/union.campp.me\/2017-11-30\/1ba620fa-dc56-43ea-afe1-cb6d07640ccc.jpg",
+      "union_name": "Ch\u1ec9 \u0111\u1ecbnh",
+      "created_at": 1513126514,
+      "updated_at": 1513126514,
+      "session_id": 6,
+      "current_seat": "Y23"
+    },
+    {
+      "id": "5a307a5f0b497a0001c0e5ef",
+      "user_id": "117954113265762464",
+      "user_name": "td69011",
+      "name": "Nguy\u1ec5n Trung T\u00e2m",
+      "avatar_url": "https:\/\/union.campp.me\/2017-12-4\/698ce84a-ec35-49bc-b54d-e7767c15cc44.png",
+      "union_name": "Ch\u1ec9 \u0111\u1ecbnh",
+      "created_at": 1513126495,
+      "updated_at": 1513126495,
+      "session_id": 6,
+      "current_seat": "Y20"
+    },
+    {
+      "id": "5a307a0f0b497a0001c0e5ee",
+      "user_id": "117946580983644320",
+      "user_name": "td69002",
+      "name": "V\u0169 Minh Th\u1ea3o",
+      "avatar_url": "https:\/\/union.campp.me\/2017-11-29\/4ea34962-fd47-4a4b-91b7-b36190f53a91.jpg",
+      "union_name": "Ch\u1ec9 \u0111\u1ecbnh",
+      "created_at": 1513126415,
+      "updated_at": 1513126415,
+      "session_id": 6,
+      "current_seat": "Y67"
+    },
+    {
+      "id": "5a3079a00b497a0001c0e5ed",
+      "user_id": "117799587623764128",
+      "user_name": "td68014",
+      "name": "Nguy\u1ec5n Ph\u00fa Tr\u01b0\u1eddng",
+      "avatar_url": "https:\/\/union.campp.me\/2017-11-30\/c879dddc-cb71-4b95-ae76-367f0847051a.jpg",
+      "union_name": "C\u01a1 quan Trung \u01af\u01a1ng \u0111o\u00e0n",
+      "created_at": 1513126304,
+      "updated_at": 1513126304,
+      "session_id": 6,
+      "current_seat": "Z43"
+    }
+  ]
+}

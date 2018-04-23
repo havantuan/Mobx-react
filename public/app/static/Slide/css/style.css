@@ -1,0 +1,188 @@
+@font-face {
+    font-family: font_commerce;
+    src: url('../font/unicode.commercb.ttf') format('truetype');
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: font_commerce;
+}
+
+p {
+    text-align: center;
+    color: #0d532d;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container {
+    width: 100%;
+    background: url('../images/daihoidoan-show-5x2.png') no-repeat;
+    background-size: 100%;
+}
+
+.container .slide-left {
+    margin-left: 2.14%;
+    float: left;
+    width: 36%;
+}
+
+.title-slide {
+    width: 69%;
+    margin: 0 auto;
+    background: url('../images/khau-hieu.png') no-repeat;
+    background-size: 100%;
+}
+
+.tv-slidebar {
+    position: relative;
+    width: 100%;
+}
+
+video#videobg {
+    width: 100%;
+}
+
+.background-tv {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: url('../images/tv-2.png') no-repeat;
+    background-size: 100%;
+}
+
+.opacity-footer {
+    width: 75%;
+    margin: 0 auto;
+    background: url('../images/chan-tv.png') no-repeat;
+    background-size: 100%;
+    background-position-y: 80%;
+}
+
+.box-center {
+    width: 60%;
+    float: left;
+}
+
+.box-content-mid {
+    width: 61.3%;
+    background: url('../images/four-star.png') no-repeat;
+    background-size: 100%;
+    background-position-y: 84%;
+    float: left;
+}
+
+.box-content-bottom {
+    width: 100%;
+    height: 100%;
+}
+
+.box-all-avatar {
+    width: 64%;
+    margin: auto;
+    background: url('../images/logo.png') no-repeat;
+    background-size: 100%;
+}
+
+.box-four-star {
+    width: 100%;
+    height: 100%;
+}
+
+p.delegate-name {
+    color: #ec2028;
+}
+
+.box-mid-head {
+    width: 100%;
+}
+
+/*box right*/
+.new-right-box {
+    float: left;
+    width: 12.56%;
+}
+
+.box-right ul li {
+    list-style-type: none;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    border-radius: 5%;
+}
+
+.box-right ul li.first {
+    width: 82.5%;
+    margin: 0 auto;
+    float: none;
+    overflow: hidden;
+}
+
+.box-right ul li.continue {
+    width: 46.97%;
+}
+
+.box-right ul li.continue:nth-child(2n+2) {
+    float: right;
+}
+
+.box-right ul li img {
+    width: 100%;
+    object-position: 50% 50%;
+    object-fit: cover;
+}
+
+.box-right ul li .border-avatar-dhd {
+    position: absolute;
+    background: url('../images/avatar-border.png') no-repeat;
+    background-size: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.new-right-box {
+    float: right;
+    width: 21.7%;
+}
+
+.new-right-box .first {
+    background: url("../images/avatar-default.jpg");
+    background-size: 100%;
+    width: 11.2%;
+    margin: 0 auto;
+    text-align: center;
+    /*background-color: #f4f4f4;*/
+    /*border: 2px solid transparent;*/
+    /*background-image: linear-gradient(to right, #12552c, #ec7f12, #7d9217, #78312d,#0d532d), linear-gradient(to bottom, #0d532d, #3f432d), linear-gradient(to left, #12552c, #ec7f12, #7d9217, #78312d,#0d532d), linear-gradient(to top, #0d532d, #3f432d);*/
+    /*background-origin: border-box;*/
+    /*background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;*/
+    /*background-position: top left, top right, bottom right, bottom left;*/
+    /*background-repeat: no-repeat;*/
+}
+
+.continue {
+    background: url("../images/avatar-default.jpg");
+    background-size: 100%;
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 2.3%;
+    /*background-color: #f4f4f4;*/
+    /*border: 2px solid transparent;*/
+    /*background-image: linear-gradient(to right, #12552c, #ec7f12, #7d9217, #78312d,#0d532d), linear-gradient(to bottom, #0d532d, #3f432d), linear-gradient(to left, #12552c, #ec7f12, #7d9217, #78312d,#0d532d), linear-gradient(to top, #0d532d, #3f432d);*/
+    /*background-origin: border-box;*/
+    /*background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;*/
+    /*background-position: top left, top right, bottom right, bottom left;*/
+    /*background-repeat: no-repeat;*/
+}
+
+
+
+
+
